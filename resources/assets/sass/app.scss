@@ -1,0 +1,34 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+$fa-font-path: "/fonts/fontawesome";
+@import "node_modules/font-awesome/scss/font-awesome";
+
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body{
+  height:100vh;
+  width: 100vw;
+  .content-wrap{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    .page-wrap{
+      margin:0 auto;
+      min-width: 500px;
+      th,
+      td{
+        padding:10px 15px;
+      }
+      i{
+        margin-left: 2px;
+      }
+    }
+  }
+}
