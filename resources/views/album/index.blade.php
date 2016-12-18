@@ -19,7 +19,7 @@
 
         <table>
             <tr>
-                <th><a href="{{ route('album.index') }}{{ app('request')->input('sort') ? '/' : '/?sort=true' }}">Name<i class="fa fa-caret-down" aria-hidden="true"></i></a></th>
+                <th><a href="{{ route('album.index') }}{{ app('request')->input('sort') ? '' : '?sort=true' }}">Name<i class="fa fa-caret-down" aria-hidden="true"></i></a></th>
                 <th>Recorded Date</th>
                 <th>Release Date</th>
                 <th>Tracks</th>

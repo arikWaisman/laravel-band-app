@@ -5,7 +5,7 @@
         <h1 class="text-center">Bands</h1>
         <table>
             <tr>
-                <th><a href="{{ route('band.index') }}{{ app('request')->input('sort') ? '/' : '/?sort=true' }}">Name<i class="fa fa-caret-down" aria-hidden="true"></i></a></th>
+                <th><a href="{{ route('band.index') }}{{ app('request')->input('sort') ? '' : '?sort=true' }}">Name<i class="fa fa-caret-down" aria-hidden="true"></i></a></th>
                 <th>Start Date</th>
                 <th>Website</th>
                 <th>Still Active?</th>
